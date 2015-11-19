@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+<!-- Another Option - Use block instead of variable -->
+   {% if name %}
+       The name of this file is ohter.
+   {% endif %}
+
+{% block content %}
+<div id="content">
+      <img src = "static/logos_umsi.png" alt = "UMSI logo"/><h2>ohter</h2>Put stuff about courses here. 
+    </div>
+
+{% endblock %}
